@@ -1,0 +1,16 @@
+{
+  "name": "typechain",
+  "version": "1.0.0",
+  "description": "Learning Typescript by making a Blockchain with it",
+  "main": "index.js",
+  "repository": "https://github.com/wonjieun/typechain.git",
+  "author": "wonjieun <wonjieunkk@gmail.com>",
+  "license": "MIT",
+  // yarn start -> "prestart" 실행 -> "start" 실행
+  "scripts": {
+    // yarn start 명령어를 실행하면 index.ts를 컴파일하도록 설정
+    // node에서 index.js파일이 실행
+    "start": "node index.js",
+    "prestart": "tsc"
+  }
+}

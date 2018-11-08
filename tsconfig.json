@@ -1,0 +1,19 @@
+/**
+* TypeScript에게 어떻게 Javascript로 변환하는지 알려주기
+*/
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        // "target" : 어떤 버전의 Javascript로 컴파일하고 싶은지
+        "target": "ES2015",
+        "sourceMap": true,
+        // 모든 ts파일은 src에, 모든 컴파일된 파일은 dist로
+        "outDir": "dist"
+    },
+    // 어떤 파일들이 컴파일 과정에 포함되는지 Typescript에게 알리기
+    // "include" : 컴파일 과정에 포함될 파일 적기
+    //              or 폴더 경로 (폴더에 있는 모든 파일)
+    "include": ["src/**/*"],
+    // "exclude" : 어떠한 node_modules을 설치하지 않지만 default로 적기
+    "exclude": ["node_modules"]
+}
