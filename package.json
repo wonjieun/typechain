@@ -7,7 +7,7 @@
   "author": "wonjieun <wonjieunkk@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "tsc-watch --onSuccess \" node dist/index.js\" "
+    "start": "tsc-watch --onSuccess \" node dist/interfaceClass.js\" "
   },
   "dependencies": {
     "tsc-watch": "^1.0.30",
